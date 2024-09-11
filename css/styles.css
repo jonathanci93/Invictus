@@ -1,0 +1,564 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+    
+}
+
+img {
+    display: block;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/*---------HEADER-------------*/
+.nav__figure img {
+    width: 90px;
+    height: 90px;
+}
+.nav__figure a {
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+}
+    .nav__bar {
+        margin-right: 2.5rem;
+    } 
+.nav__container {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__figure {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav__item {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+
+}
+.nav__link {
+    text-decoration: none;
+    color: #000000;
+    padding: 7px;
+    border-radius: 20px;
+    transition: 0.8s ease;
+
+}
+.nav__item a:hover{
+    background-color: #000;
+    color: #fff;
+
+}
+/*------SECTION HERO----*/
+
+.hero{
+    background-image: url(../images/background-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 5px #000;
+}
+
+.hero .hero__tittle { 
+    font-size: 2.5rem;
+    margin: 1rem;
+    
+}
+.hero .hero__paragraph {
+    font-size: 1rem;
+}
+
+/*--------SECTION COURSES INDEX-----*/
+
+.courses__index {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.courses__texts--index {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.courses__tittle--index {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.courses__paragraph--index {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.cards__container--index{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.cards__container--index a {
+    text-decoration: none;
+    color: #fff;
+    border: solid 2px #000;
+    border-radius: 0.4rem;
+    background-color: #000;
+    padding: 5px;
+}
+.cards__container--index a:hover {
+    background-color: #fff;
+    color: #000;
+}
+.cards__container--index img {
+    height: 300px;
+    width: 350px;
+}
+.cards__container--index h3 {
+    margin: 0.5rem 0;
+}
+
+/**----------MEMBERSHIPS INDEX---------**/
+.memberships__index {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #323232;
+}
+.memberships__index h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.memberships__cards--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.memberships__benefits {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+.memberships__benefits li {
+    margin:  1rem 0;
+    text-align: start;
+}
+.memberships__benefits li i{
+    padding-right: .5rem;
+}
+
+.memberships__cards--index {
+    border: solid 2px #000;
+    padding: .5rem;
+    background-color: #CCCCCC;
+    height: 20rem;
+    text-align: center;
+}
+
+.memberships__cards--index h3, p{
+    padding-bottom: .5rem;
+}
+
+.memberships__cards--index a {
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    border: solid 2px #000;
+    border-radius: 0.4rem;
+    background-color: #000;
+    padding: 5px;
+}
+
+.memberships__cards--index a:hover {
+    background-color: #fff;
+    color: #000;
+}
+/*------SECTION ABOUT US----*/
+
+.about {
+    background-image: url(../images/about-us-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-shadow: 0 0 5px #000;
+}
+.about__texts{
+    display: flex;
+    height: 100vh;
+}
+.about__texts img{
+    width: 50%;
+}
+.about__paragraph {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.5rem;
+}
+.about__paragraph p {
+    margin: 5rem 0;
+    font-weight: bold;
+}
+/**----------------OUR TEAM-----------**/
+
+    .our__team {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.25rem;
+    }
+    .our__team h2{
+        text-align: center;
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+    .our__team--container {
+        display: flex ;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+
+    }   
+    .our__team--cards {
+        display: flex;
+        flex-direction: column;
+        max-width: 21rem;
+        text-align: center;
+    }
+    .our__team--cards img {
+        height: auto;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    /**----------------OUR GYM-----------**/
+
+    .our__gym {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        padding: 20px;
+    }
+    .our__gym--container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        max-width: 75rem;
+
+    }
+    .our__gym h2 {
+        text-align: center; 
+        margin-bottom: 20px; 
+        width: 100%; 
+    }
+    .our__gym--container img{
+        height: auto;
+        width: 300px;
+        margin: 1rem;
+    }
+
+        /**----------------OUR COURSES-----------**/
+        .courses {
+            background-image: url(../images/background-courses.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            min-height: 100vh;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 2.5rem;
+            text-shadow: 0 0 5px #000;
+        }
+
+        .courses__texts, .courses__texts h2 {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .courses__imgs {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .courses__imgs img {
+            height: auto;
+            width: 300px;
+            margin: 1rem;
+        }
+        /**----------------MEMBERSHIPS-----------**/
+
+        .memberships {
+            background-image: url(../images/memberships-background.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100vh;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+            text-shadow: 0 0 5px #000;
+        }
+
+        .memberships__section {
+            width: 100%;
+            height: 50rem;
+            display: flex;
+            flex-direction: column;
+            background-color: #323232;
+        }
+        .memberships__section h2 {
+            color: #fff;
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+        }
+        .memberships__cards--container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            vertical-align: middle;
+        }
+        
+        .memberships__benefits {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 3rem;
+        }
+        .memberships__benefits li {
+            margin:  1rem 0;
+            text-align: start;
+        }
+        .memberships__benefits li i{
+            padding-right: .5rem;
+        }
+        
+        .memberships__cards {
+            border: solid 2px #000;
+            padding: .5rem;
+            background-color: #CCCCCC;
+            height: 20rem;
+            text-align: center;
+        }
+        
+        .memberships__cards h3, p{
+            padding-bottom: .5rem;
+        }
+        
+        .memberships__cards a {
+            display: inline;
+            text-decoration: none;
+            color: #fff;
+            border: solid 2px #000;
+            border-radius: 0.4rem;
+            background-color: #000;
+            padding: 5px;
+        }
+        
+        .memberships__cards--index a:hover {
+            background-color: #fff;
+            color: #000;
+        }
+        .memberships__discount{
+            margin-top: 8rem;
+        }
+
+        /**----------------MEMBERSHIPS FORM-----------**/
+        .memberships__form {
+            display: flex;
+            flex-direction: column;
+        }
+        .memberships__form--title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin: 1rem 0;
+        }
+        .memberships__form--container {
+            width: 100%;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .memberships__form {
+            margin: auto;
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            font-size: 1.8rem;
+        }
+        .memberships__form form fieldset {
+            border-radius: 10px;
+        }
+        .input__field { 
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            font-size: 1.1rem;
+        }
+        .input__field input{
+            height: 30px;
+            padding: 1rem;
+            border-radius: 10px;
+        }
+        .memberships__button {
+            margin-top: 1rem;
+            font-size: .8rem;
+            height: 30px;
+            border-radius: 10px;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .memberships__button:hover {
+            background-color: #fff;
+            color: #000;
+        }
+                /**----------------CONTACT-----------**/
+        .contact {
+            background-image: url(../images/contact-background.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100vh;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+            text-shadow: 0 0 5px #000;
+        }
+        .contact__container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            margin: auto;
+        }
+
+        .contact__social {
+            display: flex;
+            flex-direction: column;
+            font-size: 1.5rem;
+        }
+
+        .contact__social a {
+            margin: .8rem 0;
+            padding: .5rem;
+            color: #000;
+        }
+        
+        .contact__social a i {
+            margin-right: .5rem;
+        }
+        /**----------------CONTACT MAP-----------**/
+        .contact__map {
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box
+        }
+        .contact__map iframe{
+            border-radius: 10px;
+            border: solid 2px black;
+
+            
+        }
+/*-----------FOOTER------------*/
+footer {
+    width: 100%;
+    padding: 1.5rem;
+}
+.column1, .column2, .column3 {
+    min-width: 400px;
+    text-align: center;
+}
+.footer__container--columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: .5rem 2rem; */
+    width: 100%;
+    margin: auto;
+}
+
+.column1 a, i{
+    color: #000;
+}
+.column1 h2, p{
+    margin-bottom: .5rem;
+}
+.row1 i{
+    font-size: 1.5rem;
+    padding: .8rem;
+}
+
+
+.footer__list li {
+    margin: .5rem;
+}
+.footer__list li a{
+    margin: .5rem;
+    color: #000;
+}
+
+.column3 h2, p{
+    margin-bottom: .5rem;
+}
+.copyrights{
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+}
+
+.fa-xmark { 
+    font-size: 16px;
+}
