@@ -551,8 +551,8 @@ footer {
 }
 
 
-/**-----------MEDIAS QUERY------------**/
-/**------<576px---------**/
+/**---------------------------------MEDIAS QUERY------------**/
+/**-----------------------------<576px---------**/
 @media (max-width: 576px) {
 
     /**--------------HEADER-------**/
@@ -573,6 +573,7 @@ footer {
     }
 
     .navbar-collapse.show {
+
         justify-content: center;
     }
 
@@ -592,12 +593,47 @@ footer {
     .navbar-toggler-icon {
         width: 30px;
         height: 30px;
+    }
 
+    /**-----------------TITLE & BACKGROUND HERO----**/
+    .hero {
+        background-image: url(../images/background-hero22.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .hero .hero__tittle {
+        font-size: 2rem;
+        margin: 1rem;
+    
+    }
+    
+    .hero .hero__paragraph {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+        /**-----------------SECTION COURSES INDEX----**/
+    .courses__texts--index {
+        width: 90%;
+        margin: auto;
+    }
+    .cards__container--index {
+        flex-direction: column;
+    }
+    .cards__container--index { 
+        justify-content: center;
+        align-items: center;
+    }
+    .courses__cards--index {
+        margin-bottom: 20px;
+    }
+    .cards__container--index img {
+        width: 336px;
     }
 }
 
 
-/**------≥576px sm---------**/
+
+/**---------------------------≥576px sm---------**/
 @media (min-width:576px) and (max-width: 768px) {
 
     /**--------------HEADER-------**/
@@ -623,6 +659,7 @@ footer {
 
     .navbar-nav {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 0;
@@ -637,11 +674,44 @@ footer {
     .navbar-toggler-icon {
         width: 30px;
         height: 30px;
-
     }
+    /**-----------------TITLE & BACKGROUND HERO----**/
+    .hero {
+        background-image: url(../images/background-hero22.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .hero .hero__tittle {
+        font-size: 2rem;
+        margin: 1rem;
+    
+    }
+    
+    .hero .hero__paragraph {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+            /**-----------------SECTION COURSES INDEX----**/
+            .courses__texts--index {
+                width: 90%;
+                margin: auto;
+            }
+            .cards__container--index {
+                flex-direction: column;
+            }
+            .cards__container--index { 
+                justify-content: center;
+                align-items: center;
+            }
+            .courses__cards--index {
+                margin-bottom: 20px;
+            }
+            .cards__container--index img {
+                width: 336px;
+            }
 }
 
-/**------≥768px md---------**/
+/**---------------------------≥768px md---------**/
 
 @media (min-width: 768px) and (max-width: 992px) {
 
@@ -664,6 +734,7 @@ footer {
 
     .navbar-collapse.show {
         justify-content: center;
+
     }
 
     .navbar-nav {
@@ -682,11 +753,26 @@ footer {
     .navbar-toggler-icon {
         width: 30px;
         height: 30px;
-
+    }
+    /**-----------------TITLE & BACKGROUND HERO----**/
+    .hero {
+        background-image: url(../images/background-hero22.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .hero .hero__tittle {
+        font-size: 2rem;
+        margin: 1rem;
+    
+    }
+    
+    .hero .hero__paragraph {
+        font-size: 1rem;
+        margin: 1rem;
     }
 }
 
-/**------≥992px lg---------**/
+/**------------------------------≥992px lg---------**/
 @media (min-width: 992px) and (max-width: 1200px) {
 
     /**--------------HEADER-------**/
@@ -700,15 +786,23 @@ footer {
         font-size: 1.9rem;
         margin-left: 15px;
     }
-    .navbar-nav {   
+
+    .navbar-nav {
         margin: 0;
+    }
+    /**-----------------TITLE & BACKGROUND HERO----**/
+    .hero {
+        background-image: url(../images/background-hero22.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
 }
-/**------≥1200 xl---------**/
+
+/**------------------------------≥1200 xl---------**/
 
 @media (min-width: 1200px) and (max-width: 1400px) {
-    
+
     /**--------------HEADER-------**/
     .container-fluid a {
         font-size: 1.5rem;
@@ -720,7 +814,11 @@ footer {
         font-size: 1.9rem;
         margin-left: 15px;
     }
-    .navbar-nav {   
+
+    .navbar-nav {
         margin: 0;
     }
+
 }
+
+/**------------------------------≥1400 xxl---------**/
