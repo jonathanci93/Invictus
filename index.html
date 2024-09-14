@@ -4,10 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--------BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!----FONTAWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"       rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <!--------FAVICON-->
     <link rel="shortcut icon" href="./images/invictus-ico.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Invictus</title>
@@ -15,29 +23,24 @@
 
 <body>
     <header class="header">
-        <nav class="nav__container">
-            <figure class="nav__figure">
-                <a href="./index.html"><img src="./images/invictus-logo.png" alt="logo-invictus"></a>
-                <a href="./index.html">Invictus</a>
-            </figure>
-            <div class="nav__bar">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Inicio</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./pages/about.html" class="nav__link">Nosotros</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./pages/courses.html" class="nav__link">Clases</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./pages/membership.html" class="nav__link">Membresías</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./pages/contact.html" class="nav__link">Contacto</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a href="./index.html"><img src="./images/invictus-logo.png" alt="Logo-invictus"></a>
+                <a class="navbar-brand" href="./index.html">Invictus</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="#">Clases</a>
+                        <a class="nav-link" href="#">Membresías</a>
+                        <a class="nav-link" href="#">Contacto</a>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
@@ -91,7 +94,7 @@
                 </ul>
                 <a href="./pages/membership.html">Más información</a>
             </div>
-    
+
             <div class="memberships__cards--index">
                 <h3>Avanzado</h3>
                 <p>40.000$</p>
@@ -102,7 +105,7 @@
                 </ul>
                 <a href="./pages/membership.html">Más información</a>
             </div>
-    
+
             <div class="memberships__cards--index">
                 <h3>Basico</h3>
                 <p>30.000$</p>
@@ -158,6 +161,8 @@
             © 2024 Todos los derechos reservados | Diseñado por Invictus
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
