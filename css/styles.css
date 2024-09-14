@@ -601,41 +601,74 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .hero .hero__tittle {
         font-size: 2rem;
         margin: 1rem;
-    
+
     }
-    
+
     .hero .hero__paragraph {
         font-size: 1rem;
         margin: 1rem;
     }
-        /**-----------------SECTION COURSES INDEX----**/
+
+    /**-----------------SECTION COURSES INDEX----**/
+    .courses__index {
+        height: auto;
+    }
 
     .courses__texts--index {
         width: 90%;
         margin: auto;
     }
+
     .cards__container--index {
         flex-direction: column;
     }
+
     .cards__container--index {
-    
+
         justify-content: center;
         align-items: center;
     }
+
     .courses__cards--index {
         margin-bottom: 20px;
     }
+
     .cards__container--index img {
         width: 336px;
     }
+
     /**-----      -----MEMBERSHIPS INDEX---------**/
 
     .memberships__cards--container {
         display: flex;
         flex-direction: column;
+        margin: auto;
+        gap: 20px;
+    }
+
+    /**-----------------FOOTER----**/
+    footer {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    
+    }
+
+    .footer__container--columns {
+        flex-direction: column;
+        justify-content: start;
+    }
+
+
+    .footer__list {
+        padding: 0;
     }
 }
 
@@ -683,40 +716,60 @@ footer {
         width: 30px;
         height: 30px;
     }
+
     /**-----------------TITLE & BACKGROUND HERO INDEX----**/
     .hero {
         background-image: url(../images/background-hero22.webp);
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .hero .hero__tittle {
         font-size: 2rem;
         margin: 1rem;
-    
+
     }
-    
+
     .hero .hero__paragraph {
         font-size: 1rem;
         margin: 1rem;
     }
-            /**-----------------SECTION COURSES INDEX----**/
-            .courses__texts--index {
-                width: 90%;
-                margin: auto;
-            }
-            .cards__container--index {
-                flex-direction: column;
-            }
-            .cards__container--index { 
-                justify-content: center;
-                align-items: center;
-            }
-            .courses__cards--index {
-                margin-bottom: 20px;
-            }
-            .cards__container--index img {
-                width: 336px;
-            }
+
+    /**-----------------SECTION COURSES INDEX----**/
+    .courses__index {
+        height: auto;
+    }
+
+    .courses__texts--index {
+        width: 90%;
+        margin: auto;
+    }
+
+    .cards__container--index {
+        flex-direction: column;
+    }
+
+    .cards__container--index {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .courses__cards--index {
+        margin-bottom: 20px;
+    }
+
+    .cards__container--index img {
+        width: 336px;
+    }
+
+    /**----------------MEMBERSHIPS INDEX---------**/
+
+    .memberships__cards--container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap: 20px;
+    }
 }
 
 /**---------------------------≥768px md---------**/
@@ -762,18 +815,20 @@ footer {
         width: 30px;
         height: 30px;
     }
+
     /**-----------------TITLE & BACKGROUND HERO INDEX----**/
     .hero {
         background-image: url(../images/background-hero22.webp);
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .hero .hero__tittle {
         font-size: 2rem;
         margin: 1rem;
-    
+
     }
-    
+
     .hero .hero__paragraph {
         font-size: 1rem;
         margin: 1rem;
@@ -798,6 +853,7 @@ footer {
     .navbar-nav {
         margin: 0;
     }
+
     /**-----------------TITLE & BACKGROUND HERO INDEX----**/
     .hero {
         background-image: url(../images/background-hero22.webp);
