@@ -1,0 +1,7 @@
+1- Se implemento SASS al proyecto
+2- Se incluyo 2 archivos extras scss con variables y mediaquerys
+2.a Se importo los archivos
+2.b Se utilizo variables y mixins en el archivo principal SCSS
+3- Se agrego descripcion o valores a los atributos "alt" de las imagenes
+4- Se agrego SEO en todos los HTML en el head 
+
