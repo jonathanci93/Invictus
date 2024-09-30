@@ -1,0 +1,227 @@
+/**---------------------------------MEDIAS QUERY------------**/
+/**-----------------------------<576px---------**/
+@media (max-width: 576px) {
+
+    /**--------------HEADER-------**/
+    .container-fluid img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .container-fluid a {
+        font-size: 1.3rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-fluid .navbar-brand {
+        font-size: 1.8rem;
+
+    }
+
+    .navbar-collapse.show {
+
+        justify-content: center;
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+    }
+
+    .navbar-toggler-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    /**-----------------TITLE & BACKGROUND HERO INDEX----**/
+    .hero {
+        background-image: url(../images/background-hero22.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .hero .hero__tittle {
+        font-size: 2rem;
+        margin: 1rem;
+
+    }
+
+    .hero .hero__paragraph {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+
+    /**-----------------SECTION COURSES INDEX----**/
+    .courses__index {
+        height: auto;
+    }
+
+    .courses__texts--index {
+        width: 90%;
+        margin: auto;
+    }
+
+    .cards__container--index {
+        flex-direction: column;
+    }
+
+    .cards__container--index {
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .courses__cards--index {
+        margin-bottom: 20px;
+    }
+
+    .cards__container--index img {
+        width: 336px;
+    }
+
+    /**-------------MEMBERSHIPS INDEX---------**/
+
+    .memberships__cards--container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap: 20px;
+    }
+
+    /**-----------------FOOTER----**/
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+
+    }
+
+    .footer__container--columns {
+        flex-direction: column !important;
+        justify-content: start;
+    }
+
+
+    .footer__list {
+        padding: 0;
+    }
+
+    /**-------------ABOUT US PAGE---------**/
+    .about {
+        height: 100vh;
+        margin-bottom: 20px;
+    }
+
+    .about__texts {
+        flex-direction: column;
+    }
+
+    .about__texts img {
+        width: 90%;
+        margin: auto;
+    }
+
+    .about__paragraph {
+        width: 100%;
+    }
+
+    .about__paragraph p {
+        margin: auto;
+
+        font-weight: bold;
+    }
+
+    /**--------------OUR TEAM-------**/
+    .our__team--container {
+        grid-template-columns: 1fr;
+    }
+
+    /**----------------OUR GYM-----------**/
+    .our__gym {
+        padding: 0;
+    }
+
+    .our__gym--container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our__gym--container img {
+        width: 90%;
+        height: auto;
+    }
+
+    /**----------------OUR COURSES-----------**/
+    .courses {
+        background-image: url(../images/background-courses2.webp);
+    }
+
+    .courses__imgs {
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    /**----------------MEMBERSHIPS-----------**/
+    .memberships__section .memberships__discount {
+        font-size: 1rem;
+    }
+
+    /**----------------SECTION REGISTER MEMBERSHIPS-----------**/
+    .memberships__form--title {
+        text-align: center;
+        font-size: 1.2rem;
+
+    }
+
+    .memberships__form--container {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .memberships__form--container img {
+        width: 100%;
+    }
+
+    .input__field {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .input__field input {
+        height: 30px;
+        padding: 0;
+    }
+
+    /**-----------------CONTACT PAGES----**/
+    .contact__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact__social {
+        font-size: 1.2rem;
+    }
+
+    /**----------------CONTACT MAP-----------**/
+    .contact__map {
+        margin: 5px;
+    }
+
+    .contact__map iframe {
+        width: 100%;
+    }
+}
