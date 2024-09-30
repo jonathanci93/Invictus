@@ -73,9 +73,7 @@ body {
     width: 100%;
     height: 100vh;
     color: $color-secundario;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include flex (flex, column, center);
     align-items: center;
     text-shadow: 0 0 5px #000;
 
@@ -115,9 +113,7 @@ body {
 }
 
 .cards__container--index {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    @include flex (flex, row, space-around);
     text-align: center;
 
     a {
@@ -168,9 +164,7 @@ body {
 
 
 .memberships__cards--container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    @include flex (flex, row, space-around);
     height: 100%;
 
     .memberships__cards--index {
@@ -227,9 +221,7 @@ body {
     width: 100%;
     height: 100vh;
     color: $color-secundario;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include flex (flex, column, center);
     align-items: center;
     font-size: 3rem;
     text-shadow: 0 0 5px #000;
