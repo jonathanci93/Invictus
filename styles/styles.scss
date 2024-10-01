@@ -1,4 +1,5 @@
 @import "_variables";
+@import "_mediaquerys";
 * {
     box-sizing: border-box;
     padding: 0;
@@ -627,7 +628,7 @@ footer {
     }
 }
 
-@import "_mediaquerys";
+
 
 
 
