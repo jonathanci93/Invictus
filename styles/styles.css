@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   padding: 0;
@@ -713,4 +714,313 @@ footer .copyrights {
     width: 100%;
   }
 }
+/**---------------------------≥576px sm---------**/
+@media (min-width: 576px) and (max-width: 768px) {
+  /**--------------HEADER-------**/
+  .container-fluid img {
+    width: 85px;
+    height: 85px;
+  }
+  .container-fluid a {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  .container-fluid .navbar-brand {
+    font-size: 1.8rem;
+  }
+  .navbar-collapse.show {
+    justify-content: center;
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .navbar-toggler {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+  }
+  .navbar-toggler-icon {
+    width: 30px;
+    height: 30px;
+  }
+  /**-----------------TITLE & BACKGROUND HERO INDEX----**/
+  .hero {
+    background-image: url(../images/background-hero22.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero .hero__tittle {
+    font-size: 2rem;
+    margin: 1rem;
+  }
+  .hero .hero__paragraph {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+  /**-----------------SECTION COURSES INDEX----**/
+  .courses__index {
+    height: auto;
+  }
+  .courses__texts--index {
+    width: 90%;
+    margin: auto;
+  }
+  .cards__container--index {
+    flex-direction: column;
+  }
+  .cards__container--index {
+    justify-content: center;
+    align-items: center;
+  }
+  .courses__cards--index {
+    margin-bottom: 20px;
+  }
+  .cards__container--index img {
+    width: 336px;
+  }
+  /**----------------MEMBERSHIPS INDEX---------**/
+  .memberships__cards--container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+  }
+  /**-------------ABOUT US PAGE---------**/
+  .about {
+    height: 100vh;
+    margin-bottom: 20px;
+  }
+  .about__texts {
+    flex-direction: column;
+  }
+  .about__texts img {
+    width: 90%;
+    margin: auto;
+  }
+  .about__paragraph {
+    width: 100%;
+  }
+  .about__paragraph p {
+    margin: auto;
+    padding: 20px 0;
+    font-weight: bold;
+  }
+  /**----------------OUR GYM-----------**/
+  .our__gym {
+    padding: 0;
+  }
+  .our__gym--container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .our__gym--container img {
+    width: 90%;
+    height: auto;
+  }
+  /**----------------OUR COURSES-----------**/
+  .courses {
+    background-image: url(../images/background-courses2.webp);
+  }
+  .courses__imgs {
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+  /**----------------MEMBERSHIPS-----------**/
+  .memberships__section .memberships__discount {
+    font-size: 1.2rem;
+  }
+  /**-----------------CONTACT PAGES----**/
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact__social {
+    font-size: 1.4rem;
+  }
+  /**----------------CONTACT MAP-----------**/
+  .contact__map {
+    margin: 5px;
+  }
+  .contact__map iframe {
+    width: 100%;
+  }
+}
+/**---------------------------≥768px md---------**/
+@media (min-width: 768px) and (max-width: 992px) {
+  /**--------------HEADER-------**/
+  .container-fluid img {
+    width: 85px;
+    height: 85px;
+  }
+  .container-fluid a {
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+  }
+  .container-fluid .navbar-brand {
+    font-size: 1.9rem;
+  }
+  .navbar-collapse.show {
+    justify-content: center;
+  }
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .navbar-toggler {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+  }
+  .navbar-toggler-icon {
+    width: 30px;
+    height: 30px;
+  }
+  /**-----------------TITLE & BACKGROUND HERO INDEX----**/
+  .hero {
+    background-image: url(../images/background-hero22.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero .hero__tittle {
+    font-size: 2rem;
+    margin: 1rem;
+  }
+  .hero .hero__paragraph {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+  /**-------------ABOUT US PAGE---------**/
+  .about {
+    margin-bottom: 20px;
+  }
+  .about__texts {
+    flex-direction: column;
+    height: auto;
+  }
+  .about__texts img {
+    width: 90%;
+    margin: auto;
+  }
+  .about__paragraph {
+    width: 100%;
+  }
+  .about__paragraph p {
+    margin: auto;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  /**----------------OUR GYM-----------**/
+  .our__gym {
+    padding: 0;
+  }
+  .our__gym--container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .our__gym--container img {
+    width: 90%;
+    height: auto;
+  }
+  /**----------------OUR COURSES-----------**/
+  .courses {
+    background-image: url(../images/background-courses2.webp);
+  }
+  .courses__imgs {
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+  /**----------------MEMBERSHIPS-----------**/
+  .memberships__section .memberships__discount {
+    font-size: 1.5rem;
+  }
+  /**-----------------CONTACT PAGES----**/
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact__social {
+    font-size: 1.4rem;
+  }
+  /**----------------CONTACT MAP-----------**/
+  .contact__map {
+    margin: 5px;
+  }
+  .contact__map iframe {
+    width: 100%;
+  }
+}
+/**------------------------------≥992px lg---------**/
+@media (min-width: 992px) and (max-width: 1200px) {
+  /**--------------HEADER-------**/
+  .container-fluid a {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  .container-fluid .navbar-brand {
+    font-size: 1.9rem;
+    margin-left: 15px;
+  }
+  .navbar-nav {
+    margin: 0;
+  }
+  /**-----------------TITLE & BACKGROUND HERO INDEX----**/
+  .hero {
+    background-image: url(../images/background-hero22.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /**-------------ABOUT US PAGE---------**/
+  .about__texts img {
+    height: auto;
+  }
+  .about__texts {
+    margin-top: 20px;
+    height: 75vh;
+  }
+  /**----------------OUR GYM-----------**/
+  .our__gym {
+    padding: 0;
+  }
+  .our__gym--container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .our__gym--container img {
+    width: 90%;
+    height: auto;
+  }
+  /**----------------MEMBERSHIPS-----------**/
+  /**----------------CONTACT MAP-----------**/
+  .contact__map {
+    margin: 5px;
+  }
+}
+/**------------------------------≥1200 xl---------**/
+@media (min-width: 1200px) and (max-width: 1400px) {
+  /**--------------HEADER-------**/
+  .container-fluid a {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  .container-fluid .navbar-brand {
+    font-size: 1.9rem;
+    margin-left: 15px;
+  }
+  .navbar-nav {
+    margin: 0;
+  }
+}
+/**------------------------------≥1400 xxl---------**/
 /*# sourceMappingURL=styles.css.map */
