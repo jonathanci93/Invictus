@@ -541,6 +541,7 @@ body {
         margin: auto;
 
         .contact__social {
+            margin: 1rem;
             display: flex;
             flex-direction: column;
             font-size: 1.5rem;
@@ -558,6 +559,7 @@ body {
 
         /**----------------CONTACT MAP-----------**/
         .contact__map {
+            margin: 1rem;
             text-decoration: none;
             list-style: none;
             box-sizing: border-box;
