@@ -249,9 +249,9 @@ body {
 .about__texts .about__paragraph {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 50%;
   text-align: center;
-  justify-content: center;
   line-height: 1.5rem;
 }
 

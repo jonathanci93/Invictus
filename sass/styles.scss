@@ -65,9 +65,7 @@ body {
     width: 100%;
     height: 100vh;
     color: $color-secundario;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include flex (flex, column, center);
     align-items: center;
     text-shadow: 0 0 5px #000;
 }
@@ -105,9 +103,7 @@ body {
 }
 
 .cards__container--index {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    @include flex (flex, row, space-around);
     text-align: center;
 }
 .courses__cards--index {
@@ -162,9 +158,7 @@ body {
 }
 
 .memberships__cards--container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    @include flex (flex, row, space-around);
     height: 100%;
 }
 
@@ -227,9 +221,7 @@ body {
     width: 100%;
     height: 100vh;
     color: $color-secundario;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include flex (flex, column, center);
     align-items: center;
     font-size: 3rem;
     text-shadow: 0 0 5px #000;
@@ -245,11 +237,10 @@ body {
 }
 
 .about__texts .about__paragraph {
-    display: flex;
-    flex-direction: column;
+    @include flex (flex, column, center);
     width: 50%;
     text-align: center;
-    justify-content: center;
+
     line-height: 1.5rem;
 }
 
@@ -322,9 +313,7 @@ body {
 }
 
 .our__gym .our__gym--container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    @include flex (flex, row, center);
     width: 100%;
     max-width: 75rem;
 }
@@ -346,9 +335,7 @@ body {
     width: 100%;
     min-height: 100vh;
     color: $color-secundario;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include flex (flex, column, center);
     align-items: center;
     font-size: 2.5rem;
     text-shadow: 0 0 5px #000;
@@ -360,9 +347,7 @@ body {
 }
 
 .courses__imgs {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    @include flex (flex, row, space-between);
     width: 100%;
 }
 
@@ -383,9 +368,7 @@ body {
     width: 100%;
     height: 100vh;
     color: $color-secundario;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include flex (flex, column, center);
     align-items: center;
     font-size: 3rem;
     text-shadow: 0 0 5px #000;
@@ -410,9 +393,7 @@ body {
 }
 
 .memberships__cards--container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    @include flex (flex, row, space-around);
     vertical-align: middle;
 }
 
@@ -469,9 +450,7 @@ body {
 .memberships__form--section .memberships__form--container {
     width: 100%;
     margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    @include flex (flex, row, space-around);
 }
 
 .memberships__form--section .memberships__form--container .memberships__form {
@@ -523,9 +502,7 @@ body {
     width: 100%;
     height: 100vh;
     color: $color-secundario;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include flex (flex, column, center);
     align-items: center;
     font-size: 3rem;
     text-shadow: 0 0 5px #000;
@@ -576,9 +553,7 @@ footer {
 }
 
 footer .footer__container--columns {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    @include flex (flex, row, space-between);
     width: 100%;
     margin: auto;
 }
@@ -729,9 +704,7 @@ footer .copyrights {
 
     /**-----------------FOOTER----**/
     footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        @include flex (flex, column, center);
         align-items: center;
         padding: 0px;
     }
